@@ -1,0 +1,41 @@
+特征,解释
+Neo Reference ID,近地天体的参考编号，用于唯一标识每个近地天体。
+Name,近地天体的名称或编号，但在这里显示为整数，可能是某种特定的编码或ID。
+Absolute Magnitude,绝对星等，表示天体在没有大气干扰的情况下的亮度。星等越小，天体越亮。
+Est Dia in KM(min),估计的最小直径（以千米为单位）。
+Est Dia in KM(max),估计的最大直径（以千米为单位）。
+Est Dia in M(min),估计的最小直径（以米为单位）。
+Est Dia in M(max),估计的最大直径（以米为单位）。
+Est Dia in Miles(min),估计的最小直径（以英里为单位）。
+Est Dia in Miles(max),估计的最大直径（以英里为单位）。
+Est Dia in Feet(min),估计的最小直径（以英尺为单位）。
+Est Dia in Feet(max),估计的最大直径（以英尺为单位）。
+Close Approach Date,近地天体接近地球的日期。
+Epoch Date Close Approach,接近地球时的历元日期
+Relative Velocity km per sec,相对地球的速度，以千米每秒为单位。
+Relative Velocity km per hr,相对地球的速度，以千米每小时为单位。
+Miles per hour,相对地球的速度，以英里每小时为单位。
+Miss Dist.(Astronomical),与地球的最小错过距离，以天文单位为单位。
+Miss Dist.(lunar),与地球的最小错过距离，以月球距离为单位。
+Miss Dist.(kilometers),与地球的最小错过距离，以千米为单位。
+Miss Dist.(miles),与地球的最小错过距离，以英里为单位。
+Orbiting Body,近地天体围绕的天体，通常是地球。
+Orbit ID,轨道的参考编号。
+Orbit Determination Date,轨道确定的日期。
+Orbit Uncertainity,轨道的不确定性程度。
+Minimum Orbit Intersection,轨道与地球的最小相交距离或参数。
+Jupiter Tisserand Invariant,木星的提塞朗不变量，用于描述天体与木星轨道的相对关系。
+Epoch Osculation,历元振荡参数，用于描述天体轨道在特定历元时的状态。
+Eccentricity,偏心率，描述轨道形状的参数，0表示圆形轨道，1表示抛物线或双曲线轨道。
+Semi Major Axis,半长轴，轨道大小的一个度量，表示天体到其轨道中心的最大距离。
+Inclination,轨道倾角，表示轨道平面与参考平面（如黄道面）之间的夹角。
+Asc Node Longitude,升交点经度，描述轨道在参考平面上从某固定点（如春分点）量起的升交点位置。
+Orbital Period,轨道周期，天体绕其轨道中心一周所需的时间。
+Perihelion Distance,近日点距离，天体在其轨道上离太阳最近点的距离。
+Perihelion Arg,近日点幅角，描述天体在其轨道上从升交点量到近日点的角度
+Aphelion Dist,远日点距离，天体在其轨道上离太阳最远点的距离。
+Perihelion Time,近日点时间，天体经过其轨道上离太阳最近点的时间。
+Mean Anomaly,平均近点角，描述天体在其椭圆轨道上的位置，通常是从近日点量起的角度。
+Mean Motion,平均运动，描述天体在其轨道上平均每天移动的角度的速率。
+Equinox,分点，通常指春分点或秋分点。
+Hazardous,是否具有潜在危险性，用于标识近地天体是否可能对地球构成威胁。

@@ -1,0 +1,47 @@
+digraph {
+    graph [ rankdir=TB ]
+
+    0 [ label="Minimum Orbit Intersection<0.0505077988" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="Absolute Magnitude<22" ]
+    1 -> 3 [label="yes" color="#FF0000"]
+    1 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="leaf=4.80764532" ]
+
+    4 [ label="Absolute Magnitude<22.2000008" ]
+    4 -> 5 [label="yes" color="#FF0000"]
+    4 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="Aphelion Dist<1.21053028" ]
+    5 -> 7 [label="yes" color="#FF0000"]
+    5 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="leaf=-0.712016404" ]
+
+    8 [ label="Perihelion Arg<140.672119" ]
+    8 -> 11 [label="yes" color="#FF0000"]
+    8 -> 12 [label="no, missing" color="#0000FF"]
+
+    11 [ label="leaf=0.263637304" ]
+
+    12 [ label="leaf=2.08917022" ]
+
+    6 [ label="Absolute Magnitude<22.2040005" ]
+    6 -> 9 [label="yes" color="#FF0000"]
+    6 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="Minimum Orbit Intersection<0.0099728303" ]
+    9 -> 13 [label="yes" color="#FF0000"]
+    9 -> 14 [label="no, missing" color="#0000FF"]
+
+    13 [ label="leaf=0.263637304" ]
+
+    14 [ label="leaf=-0.874712884" ]
+
+    10 [ label="leaf=-1.25116861" ]
+
+    2 [ label="leaf=-1.25314105" ]
+}
